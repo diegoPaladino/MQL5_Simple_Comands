@@ -1,0 +1,10 @@
+void OnTick()
+  {
+   
+   double last;
+   
+   last = iMA(_Symbol, _Period, 20, 0, MODE_SMA, PRICE_CLOSE);
+   
+   Print(last); 
+   
+  }
