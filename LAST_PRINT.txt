@@ -3,7 +3,7 @@ void OnTick()
    
    double last;
    
-   last = iMA(_Symbol, _Period, 20, 0, MODE_SMA, PRICE_CLOSE);
+   last = SymbolInfoDouble(_Symbol, SYMBOL_LAST);
    
    Print(last); 
    
