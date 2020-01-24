@@ -1,0 +1,8 @@
+void OnTick()
+  {
+
+   int smaHandle;
+   
+   smaHandle = iMA(_Symbol, _Period, 20, 0, MODE_SMA, PRICE_CLOSE);
+   
+  }
