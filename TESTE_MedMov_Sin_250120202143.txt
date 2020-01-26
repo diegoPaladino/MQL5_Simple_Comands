@@ -1,0 +1,10 @@
+void OnTick()
+  {
+
+   int smaHandle;
+   double last;
+   
+   last = SymbolInfoDouble(_Symbol,SYMBOL_LAST);
+   smaHandle = iMA(_Symbol, _Period, 20, 0, MODE_SMA, PRICE_CLOSE);
+   
+  }
