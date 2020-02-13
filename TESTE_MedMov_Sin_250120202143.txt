@@ -10,4 +10,6 @@ void OnTick()
    Print("SMA:",smaHandle);
    Print("last",last);
    
+   
+   //comment to git
   }
